@@ -136,7 +136,7 @@ img {
 }
 .header .header_nav ul li a{
     color: black;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 .header .header_nav ul li:hover{
@@ -257,15 +257,15 @@ color: var(--primary);
 .banner .banner_text{
   position: relative;
 }
-.banner .banner_wrapper:hover .banner .banner_text::after{
+.banner .banner_wrapper:hover .banner_text::after{
   transform: rotate(-360deg);
   transition: .5s ease;
 }
 .banner .banner_text::after{
   content: url("/img/airplane.png");
   position: absolute;
-  bottom: -18rem;
-  right: 0rem;
+  bottom: -20rem;
+ transition: 0.5 ease;
 }
 @media screen and (max-width:500px){
 .banner .banner_wrapper{
@@ -289,7 +289,21 @@ color: var(--primary);
   .banner .bannner_img .images img{
     min-height: 20rem;
   }
-  
+}
+/* TOP */
+.top{
+  background: var(--primary);
+  padding: 5rem 0;
+}
+.top h2{
+  font-size: 3rem;
+  color: var(--light);
+  font-weight: 600;
+}
+.top .top_wrapper{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 
 }
 /* REPEATABLE PATTERNS */
 :root{
@@ -314,3 +328,10 @@ color: var(--primary);
     color: var(--primary);
     border: 1px solid var(--primary);
 }
+
+
+
+
+  
+
+
